@@ -7,9 +7,10 @@ public class US01_Page extends BasePage{
 
 //    @FindBy(xpath = "//h2[text()='Popular searches']")
 //    public static WebElement page_center; //sayfa ortasindaki 'Popular searches' text TB
-//
+//    
 //    @FindBy(xpath = "//h2[text()='Popular searches']")
 //    public static WebElement page_end; //sayfa sonundaki 'Help' text TB
+    
     @FindBy(id = "input-auto-complete")
     public WebElement whereTo_tb;
     @FindBy(xpath = "//button[@data-testid='search-form-calendar-checkin']")
