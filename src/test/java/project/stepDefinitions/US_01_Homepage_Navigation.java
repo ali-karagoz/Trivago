@@ -69,7 +69,7 @@ public class US_01_Homepage_Navigation {
 
 
 /*
-@Then("User should be on {string} page") aciklama:::
+@Then("User should be on {string} page") aciklama:::::::
 Bu kod parçası, kullanıcının belirli bir URL'ye gittiğini doğrulamak için Cucumber'ın @Then adımını kullanır.
 Assert.assertEquals metodu ile beklenen URL ile gerçek URL karşılaştırılır. Eğer URL'ler uyuşmazsa,
 bir hata mesajı alırsınız. Bu yöntem, kullanıcının doğru sayfada olduğunu doğrulamanın basit ve etkili bir yoludur.
